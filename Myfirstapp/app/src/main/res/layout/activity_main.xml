@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout. xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.myfirstapp.MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Greetings appear here.."
+    android:id="@+id/greetings_text_view"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Greetings"
+        android:layout_below="@+id/greetings_text_view"
+        android:onClick="showGreetings"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="41dp" />
+
+</android.support.constraint.ConstraintLayout.>
